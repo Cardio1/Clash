@@ -9,7 +9,7 @@ log-level: info
 ipv6: false
 external-controller: 0.0.0.0:9090
 external-ui: ./dashboard/Yacd
-secret: ""
+secret: "119526"
 enable-process: true
 find-process-mode: strict
 global-client-fingerprint: chrome
@@ -254,212 +254,212 @@ rules:
  - DOMAIN,analytics.strava.com,🇨🇳 中国
  - DOMAIN,msg.umeng.com,🇨🇳 中国
  - DOMAIN,msg.umengcloud.com,🇨🇳 中国
- - DOMAIN-SUFFIX,v3.fstats.xyz,🛑 REJECT, reject
- - DOMAIN-SUFFIX,wpadmngr.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,histats.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,son-in-lawmorbid.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,mc.yandex.ru,🛑 REJECT, reject
- - DOMAIN-SUFFIX,amung.us,🛑 REJECT, reject
- - DOMAIN-SUFFIX,widgets.amung.us,🛑 REJECT, reject
- - DOMAIN-SUFFIX,s10.histats.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,eyebrowscrambledlater.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,a.realsrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,media.aso1.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,js.wpshsdk.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,js.wpushsdk.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,9e77b6e6e2.2e3f31faae.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,playersb.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,42yenxh.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,dwyhup.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,netdjs.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,pc.stgowan.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,tapioni.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,107iwh.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,hbhuatie.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,qinzhihao.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,nby360.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,tfosrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,trafforsrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,trafficforce.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,s.csyfe.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,qw2v.changshuohr.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,wss.haoyundmn.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,creative.live.missav.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,cashewsforlife208.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ingest.sentry,🛑 REJECT, reject
- - DOMAIN-SUFFIX,phloxsub73ulata.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,xxxjmp.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,pitrespite.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,alexametrics.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,designslicensedeep.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,a.bestcontentfood.top,🛑 REJECT, reject
- - DOMAIN-SUFFIX,tsyndicate.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,cashewsforlife208.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,e67repidwnfu7gcha.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,mc7clurd09pla4nrtat7ion.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,e67repidwnfu7gcha.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,wuzbhjpvsf.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,a.realsrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,a.shukriya90.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,a.shukriya90.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,creative.xlviirdr.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,realsrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,asewlfjqwlflkew.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,uus52.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,uus58.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ddmax20.xyz,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ads.exosrv.com,🛑 REJECT, reject
- - DOMAIN-KEYWORD,exosrv,🛑 REJECT, reject
- - DOMAIN-KEYWORD,asewlfjqwlflkew,🛑 REJECT, reject
- - DOMAIN-SUFFIX,tyrantdb.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,adserve.work,🛑 REJECT, reject
- - DOMAIN-KEYWORD,brushshopy,🛑 REJECT, reject
- - DOMAIN-KEYWORD,onenews,🛑 REJECT, reject
- - DOMAIN-SUFFIX,s96.cnzz.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,xn--3bs795g.zone,🛑 REJECT, reject
- - DOMAIN-SUFFIX,xn--2qux23c9ziyrq.plus,🛑 REJECT, reject
- - DOMAIN-SUFFIX,xn--2qux23c9ziyrq.club,🛑 REJECT, reject
- - DOMAIN-SUFFIX,xn--xhq9mt12cf5v.xn--io0a7i,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ddmax20.xyz,🛑 REJECT, reject
- - DOMAIN-SUFFIX,xn--3bs795g.link,🛑 REJECT, reject
- - DOMAIN-SUFFIX,show.suning.beer,🛑 REJECT, reject
- - DOMAIN-SUFFIX,www.govshenzhen.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,mm9842.com,🛑 REJECT, reject
- - DOMAIN-KEYWORD,e2wysbacctt1,🛑 REJECT, reject
- - DOMAIN-SUFFIX,maphuahin.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ggsfq.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ad.pornimg.xyz,🛑 REJECT, reject
- - DOMAIN-SUFFIX,yandex.ru,🛑 REJECT, reject
- - DOMAIN-SUFFIX,awaitcola.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,wine-api.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,exosrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,juicyads.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,thumb.fvs.io,🛑 REJECT, reject
- - DOMAIN-SUFFIX,itnuzleafan.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,oawhaursaith.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,unreshiramor.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,regulationprivilegescan.top,🛑 REJECT, reject
- - DOMAIN-SUFFIX,in-page-push.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,farmcrapsubsist.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,jads.co,🛑 REJECT, reject
- - DOMAIN-SUFFIX,adxadserv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,moatads.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,juicyads.in,🛑 REJECT, reject
- - DOMAIN-SUFFIX,dtscout.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,51.la,🛑 REJECT, reject
- - DOMAIN-SUFFIX,51daeka.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,trafficjunky.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,adserver.juicyads.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,poweredby.jads.co,🛑 REJECT, reject
- - DOMAIN-SUFFIX,jads.co,🛑 REJECT, reject
- - DOMAIN-SUFFIX,exdynsrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,d227cncaprzd7y.cloudfront.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,d10lumateci472.cloudfront.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,new.xiongzhangad.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,dvzk66.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,pu0glv.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,sentry.io,🛑 REJECT, reject
- - DOMAIN-KEYWORD,dlads,🛑 REJECT, reject
- - DOMAIN,dagonghuzhu.com,🛑 REJECT, reject
- - DOMAIN-KEYWORD,xxshuyuan,🛑 REJECT, reject
- - DOMAIN-KEYWORD,haowanyou,🛑 REJECT, reject
- - DOMAIN-KEYWORD,dat8,🛑 REJECT, reject
- - DOMAIN-KEYWORD,112wan,🛑 REJECT, reject
- - DOMAIN-KEYWORD,dfkj8,🛑 REJECT, reject
- - DOMAIN-KEYWORD,mifengv,🛑 REJECT, reject
- - DOMAIN-KEYWORD,lieyou,🛑 REJECT, reject
- - DOMAIN-KEYWORD,789htbet,🛑 REJECT, reject
- - DOMAIN-KEYWORD,mdapp09,🛑 REJECT, reject
- - DOMAIN-KEYWORD,juruigj,🛑 REJECT, reject
- - DOMAIN-SUFFIX,etahub.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,evtubescms.phncdn.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,22c.in,🛑 REJECT, reject
- - DOMAIN-SUFFIX,imgxxx.shunxincar.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,kk.braincf.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,run.haireig.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,d.zxptw.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,new.xiongzhangad.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,js.users.51.la,🛑 REJECT, reject
- - DOMAIN-SUFFIX,maxwellsery.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,annabelleabe.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,jidukeji.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,atmib.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,bjzysd.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,iycwl.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,haoyundm.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,qqq123987.site,🛑 REJECT, reject
- - DOMAIN-SUFFIX,qweewq2021.online,🛑 REJECT, reject
- - DOMAIN-SUFFIX,qqq123987.site,🛑 REJECT, reject
- - DOMAIN-SUFFIX,jianxinshanghai.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,js.51toubu.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,img.hylmxing.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,777.000123456789.space,🛑 REJECT, reject
- - DOMAIN-SUFFIX,bhichong.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,tskdfjksldk.sdhsgcj.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,haoyuntj.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,bizhixiang.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ads.superad.cc,🛑 REJECT, reject
- - DOMAIN-SUFFIX,isboost.co.jp,🛑 REJECT, reject
- - DOMAIN-SUFFIX,boost-next.co.jp,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ad-nex.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,aaacompany.net,🛑 REJECT, reject
- - DOMAIN-SUFFIX,d24ak3f2b.top,🛑 REJECT, reject
- - DOMAIN-SUFFIX,blastcahs.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,alexametrics.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,wpncdn.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,exosrv.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,jads.co,🛑 REJECT, reject
- - DOMAIN-KEYWORD,toateeli,🛑 REJECT, reject
- - DOMAIN-KEYWORD,greenplasticdua,🛑 REJECT, reject
- - DOMAIN-KEYWORD,bongacash,🛑 REJECT, reject
- - DOMAIN-KEYWORD,bngpt,🛑 REJECT, reject
- - DOMAIN-KEYWORD,stunninglover,🛑 REJECT, reject
- - DOMAIN-KEYWORD,jads,🛑 REJECT, reject
- - DOMAIN-KEYWORD,trwl1,🛑 REJECT, reject
- - DOMAIN-KEYWORD,o333o,🛑 REJECT, reject
- - DOMAIN-SUFFIX,ad.pornimg.xyz,🛑 REJECT, reject
- - DOMAIN-SUFFIX,x2sfa.javgg.eu,🛑 REJECT, reject
- - DOMAIN-SUFFIX,xd3r.javgg.eu,🛑 REJECT, reject
- - DOMAIN-SUFFIX,p242.plainwrk.name,🛑 REJECT, reject
- - DOMAIN-KEYWORD,histats,🛑 REJECT, reject
- - DOMAIN-KEYWORD,dtscout,🛑 REJECT, reject
- - DOMAIN-KEYWORD,adform,🛑 REJECT, reject
- - DOMAIN-KEYWORD,mathtag,🛑 REJECT, reject
- - DOMAIN-KEYWORD,pagespeed-mod,🛑 REJECT, reject
- - DOMAIN-KEYWORD,in-page-push,🛑 REJECT, reject
- - DOMAIN-SUFFIX,referrer.disqus.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,links.services.disqus.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,disqusads.com,🛑 REJECT, reject
- - DOMAIN,glitter.services.disqus.com,🛑 REJECT, reject
- - DOMAIN,juggler.services.disqus.com,🛑 REJECT, reject
- - DOMAIN,tempest.services.disqus.com,🛑 REJECT, reject
- - DOMAIN,mc.viglink.com,🛑 REJECT, reject
- - DOMAIN,qa.viglink.com,🛑 REJECT, reject
- - DOMAIN,ns4.viglink.com,🛑 REJECT, reject
- - DOMAIN,ns2.viglink.com,🛑 REJECT, reject
- - DOMAIN,ns3.viglink.com,🛑 REJECT, reject
- - DOMAIN,apicdn.viglink.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,cdn.viglink.com,🛑 REJECT, reject
- - DOMAIN,nggfe.fdgem.com,🛑 REJECT, reject
- - DOMAIN,rthmnj.xyz,🛑 REJECT, reject
- - DOMAIN-SUFFIX, jknmthwd.xyz,🛑 REJECT, reject
- - DOMAIN,koprtgh.omhoa.com,🛑 REJECT, reject
- - DOMAIN,hbftgh.ibjkqnhjwd.xyz,🛑 REJECT, reject
- - DOMAIN,kmopoer.jkbuymjhp.xyz,🛑 REJECT, reject
- - DOMAIN,kmef.ikjwmfeds.xyz,🛑 REJECT, reject
- - DOMAIN,hnrtg.iujkegbpo.xyz,🛑 REJECT, reject
- - DOMAIN-SUFFIX,tcc.qscvli.com,🛑 REJECT, reject
- - DOMAIN,fg.knlk2md.cn,🛑 REJECT, reject
- - DOMAIN,tg.gtlpaj.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,gtlpaj.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,knlk2md.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,7tad.cn,🛑 REJECT, reject
- - DOMAIN,tc.vpubmi.com,🛑 REJECT, reject
- - DOMAIN-SUFFIX,qoiw1xw.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX,purpleads.io,🛑 REJECT, reject
- - DOMAIN-SUFFIX, fg.knlk2md.cn,🛑 REJECT, reject
- - DOMAIN-SUFFIX, tg.gtlpaj.com,🛑 REJECT, reject
+ - DOMAIN-SUFFIX,v3.fstats.xyz,🛑 REJECT
+ - DOMAIN-SUFFIX,wpadmngr.com,🛑 REJECT
+ - DOMAIN-SUFFIX,histats.com,🛑 REJECT
+ - DOMAIN-SUFFIX,son-in-lawmorbid.com,🛑 REJECT
+ - DOMAIN-SUFFIX,mc.yandex.ru,🛑 REJECT
+ - DOMAIN-SUFFIX,amung.us,🛑 REJECT
+ - DOMAIN-SUFFIX,widgets.amung.us,🛑 REJECT
+ - DOMAIN-SUFFIX,s10.histats.com,🛑 REJECT
+ - DOMAIN-SUFFIX,eyebrowscrambledlater.com,🛑 REJECT
+ - DOMAIN-SUFFIX,a.realsrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,media.aso1.net,🛑 REJECT
+ - DOMAIN-SUFFIX,js.wpshsdk.com,🛑 REJECT
+ - DOMAIN-SUFFIX,js.wpushsdk.com,🛑 REJECT
+ - DOMAIN-SUFFIX,9e77b6e6e2.2e3f31faae.com,🛑 REJECT
+ - DOMAIN-SUFFIX,playersb.com,🛑 REJECT
+ - DOMAIN-SUFFIX,42yenxh.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,dwyhup.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,netdjs.net,🛑 REJECT
+ - DOMAIN-SUFFIX,pc.stgowan.com,🛑 REJECT
+ - DOMAIN-SUFFIX,tapioni.com,🛑 REJECT
+ - DOMAIN-SUFFIX,107iwh.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,hbhuatie.com,🛑 REJECT
+ - DOMAIN-SUFFIX,qinzhihao.com,🛑 REJECT
+ - DOMAIN-SUFFIX,nby360.com,🛑 REJECT
+ - DOMAIN-SUFFIX,tfosrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,trafforsrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,trafficforce.com,🛑 REJECT
+ - DOMAIN-SUFFIX,s.csyfe.com,🛑 REJECT
+ - DOMAIN-SUFFIX,qw2v.changshuohr.net,🛑 REJECT
+ - DOMAIN-SUFFIX,wss.haoyundmn.com,🛑 REJECT
+ - DOMAIN-SUFFIX,creative.live.missav.com,🛑 REJECT
+ - DOMAIN-SUFFIX,cashewsforlife208.com,🛑 REJECT
+ - DOMAIN-SUFFIX,ingest.sentry,🛑 REJECT
+ - DOMAIN-SUFFIX,phloxsub73ulata.com,🛑 REJECT
+ - DOMAIN-SUFFIX,xxxjmp.com,🛑 REJECT
+ - DOMAIN-SUFFIX,pitrespite.com,🛑 REJECT
+ - DOMAIN-SUFFIX,alexametrics.com,🛑 REJECT
+ - DOMAIN-SUFFIX,designslicensedeep.com,🛑 REJECT
+ - DOMAIN-SUFFIX,a.bestcontentfood.top,🛑 REJECT
+ - DOMAIN-SUFFIX,tsyndicate.com,🛑 REJECT
+ - DOMAIN-SUFFIX,cashewsforlife208.com,🛑 REJECT
+ - DOMAIN-SUFFIX,e67repidwnfu7gcha.com,🛑 REJECT
+ - DOMAIN-SUFFIX,mc7clurd09pla4nrtat7ion.com,🛑 REJECT
+ - DOMAIN-SUFFIX,e67repidwnfu7gcha.com,🛑 REJECT
+ - DOMAIN-SUFFIX,wuzbhjpvsf.com,🛑 REJECT
+ - DOMAIN-SUFFIX,a.realsrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,a.shukriya90.com,🛑 REJECT
+ - DOMAIN-SUFFIX,a.shukriya90.com,🛑 REJECT
+ - DOMAIN-SUFFIX,creative.xlviirdr.com,🛑 REJECT
+ - DOMAIN-SUFFIX,realsrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,asewlfjqwlflkew.com,🛑 REJECT
+ - DOMAIN-SUFFIX,uus52.com,🛑 REJECT
+ - DOMAIN-SUFFIX,uus58.com,🛑 REJECT
+ - DOMAIN-SUFFIX,ddmax20.xyz,🛑 REJECT
+ - DOMAIN-SUFFIX,ads.exosrv.com,🛑 REJECT
+ - DOMAIN-KEYWORD,exosrv,🛑 REJECT
+ - DOMAIN-KEYWORD,asewlfjqwlflkew,🛑 REJECT
+ - DOMAIN-SUFFIX,tyrantdb.com,🛑 REJECT
+ - DOMAIN-SUFFIX,adserve.work,🛑 REJECT
+ - DOMAIN-KEYWORD,brushshopy,🛑 REJECT
+ - DOMAIN-KEYWORD,onenews,🛑 REJECT
+ - DOMAIN-SUFFIX,s96.cnzz.com,🛑 REJECT
+ - DOMAIN-SUFFIX,xn--3bs795g.zone,🛑 REJECT
+ - DOMAIN-SUFFIX,xn--2qux23c9ziyrq.plus,🛑 REJECT
+ - DOMAIN-SUFFIX,xn--2qux23c9ziyrq.club,🛑 REJECT
+ - DOMAIN-SUFFIX,xn--xhq9mt12cf5v.xn--io0a7i,🛑 REJECT
+ - DOMAIN-SUFFIX,ddmax20.xyz,🛑 REJECT
+ - DOMAIN-SUFFIX,xn--3bs795g.link,🛑 REJECT
+ - DOMAIN-SUFFIX,show.suning.beer,🛑 REJECT
+ - DOMAIN-SUFFIX,www.govshenzhen.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,mm9842.com,🛑 REJECT
+ - DOMAIN-KEYWORD,e2wysbacctt1,🛑 REJECT
+ - DOMAIN-SUFFIX,maphuahin.com,🛑 REJECT
+ - DOMAIN-SUFFIX,ggsfq.com,🛑 REJECT
+ - DOMAIN-SUFFIX,ad.pornimg.xyz,🛑 REJECT
+ - DOMAIN-SUFFIX,yandex.ru,🛑 REJECT
+ - DOMAIN-SUFFIX,awaitcola.com,🛑 REJECT
+ - DOMAIN-SUFFIX,wine-api.net,🛑 REJECT
+ - DOMAIN-SUFFIX,exosrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,juicyads.com,🛑 REJECT
+ - DOMAIN-SUFFIX,thumb.fvs.io,🛑 REJECT
+ - DOMAIN-SUFFIX,itnuzleafan.com,🛑 REJECT
+ - DOMAIN-SUFFIX,oawhaursaith.com,🛑 REJECT
+ - DOMAIN-SUFFIX,unreshiramor.com,🛑 REJECT
+ - DOMAIN-SUFFIX,regulationprivilegescan.top,🛑 REJECT
+ - DOMAIN-SUFFIX,in-page-push.com,🛑 REJECT
+ - DOMAIN-SUFFIX,farmcrapsubsist.com,🛑 REJECT
+ - DOMAIN-SUFFIX,jads.co,🛑 REJECT
+ - DOMAIN-SUFFIX,adxadserv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,moatads.com,🛑 REJECT
+ - DOMAIN-SUFFIX,juicyads.in,🛑 REJECT
+ - DOMAIN-SUFFIX,dtscout.com,🛑 REJECT
+ - DOMAIN-SUFFIX,51.la,🛑 REJECT
+ - DOMAIN-SUFFIX,51daeka.com,🛑 REJECT
+ - DOMAIN-SUFFIX,trafficjunky.com,🛑 REJECT
+ - DOMAIN-SUFFIX,adserver.juicyads.com,🛑 REJECT
+ - DOMAIN-SUFFIX,poweredby.jads.co,🛑 REJECT
+ - DOMAIN-SUFFIX,jads.co,🛑 REJECT
+ - DOMAIN-SUFFIX,exdynsrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,d227cncaprzd7y.cloudfront.net,🛑 REJECT
+ - DOMAIN-SUFFIX,d10lumateci472.cloudfront.net,🛑 REJECT
+ - DOMAIN-SUFFIX,new.xiongzhangad.com,🛑 REJECT
+ - DOMAIN-SUFFIX,dvzk66.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,pu0glv.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,sentry.io,🛑 REJECT
+ - DOMAIN-KEYWORD,dlads,🛑 REJECT
+ - DOMAIN,dagonghuzhu.com,🛑 REJECT
+ - DOMAIN-KEYWORD,xxshuyuan,🛑 REJECT
+ - DOMAIN-KEYWORD,haowanyou,🛑 REJECT
+ - DOMAIN-KEYWORD,dat8,🛑 REJECT
+ - DOMAIN-KEYWORD,112wan,🛑 REJECT
+ - DOMAIN-KEYWORD,dfkj8,🛑 REJECT
+ - DOMAIN-KEYWORD,mifengv,🛑 REJECT
+ - DOMAIN-KEYWORD,lieyou,🛑 REJECT
+ - DOMAIN-KEYWORD,789htbet,🛑 REJECT
+ - DOMAIN-KEYWORD,mdapp09,🛑 REJECT
+ - DOMAIN-KEYWORD,juruigj,🛑 REJECT
+ - DOMAIN-SUFFIX,etahub.com,🛑 REJECT
+ - DOMAIN-SUFFIX,evtubescms.phncdn.com,🛑 REJECT
+ - DOMAIN-SUFFIX,22c.in,🛑 REJECT
+ - DOMAIN-SUFFIX,imgxxx.shunxincar.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,kk.braincf.com,🛑 REJECT
+ - DOMAIN-SUFFIX,run.haireig.com,🛑 REJECT
+ - DOMAIN-SUFFIX,d.zxptw.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,new.xiongzhangad.com,🛑 REJECT
+ - DOMAIN-SUFFIX,js.users.51.la,🛑 REJECT
+ - DOMAIN-SUFFIX,maxwellsery.com,🛑 REJECT
+ - DOMAIN-SUFFIX,annabelleabe.com,🛑 REJECT
+ - DOMAIN-SUFFIX,jidukeji.com,🛑 REJECT
+ - DOMAIN-SUFFIX,atmib.com,🛑 REJECT
+ - DOMAIN-SUFFIX,bjzysd.net,🛑 REJECT
+ - DOMAIN-SUFFIX,iycwl.com,🛑 REJECT
+ - DOMAIN-SUFFIX,haoyundm.com,🛑 REJECT
+ - DOMAIN-SUFFIX,qqq123987.site,🛑 REJECT
+ - DOMAIN-SUFFIX,qweewq2021.online,🛑 REJECT
+ - DOMAIN-SUFFIX,qqq123987.site,🛑 REJECT
+ - DOMAIN-SUFFIX,jianxinshanghai.com,🛑 REJECT
+ - DOMAIN-SUFFIX,js.51toubu.com,🛑 REJECT
+ - DOMAIN-SUFFIX,img.hylmxing.com,🛑 REJECT
+ - DOMAIN-SUFFIX,777.000123456789.space,🛑 REJECT
+ - DOMAIN-SUFFIX,bhichong.com,🛑 REJECT
+ - DOMAIN-SUFFIX,tskdfjksldk.sdhsgcj.com,🛑 REJECT
+ - DOMAIN-SUFFIX,haoyuntj.com,🛑 REJECT
+ - DOMAIN-SUFFIX,bizhixiang.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,🛑 REJECT
+ - DOMAIN-SUFFIX,ads.superad.cc,🛑 REJECT
+ - DOMAIN-SUFFIX,isboost.co.jp,🛑 REJECT
+ - DOMAIN-SUFFIX,boost-next.co.jp,🛑 REJECT
+ - DOMAIN-SUFFIX,ad-nex.com,🛑 REJECT
+ - DOMAIN-SUFFIX,aaacompany.net,🛑 REJECT
+ - DOMAIN-SUFFIX,d24ak3f2b.top,🛑 REJECT
+ - DOMAIN-SUFFIX,blastcahs.com,🛑 REJECT
+ - DOMAIN-SUFFIX,alexametrics.com,🛑 REJECT
+ - DOMAIN-SUFFIX,wpncdn.com,🛑 REJECT
+ - DOMAIN-SUFFIX,exosrv.com,🛑 REJECT
+ - DOMAIN-SUFFIX,jads.co,🛑 REJECT
+ - DOMAIN-KEYWORD,toateeli,🛑 REJECT
+ - DOMAIN-KEYWORD,greenplasticdua,🛑 REJECT
+ - DOMAIN-KEYWORD,bongacash,🛑 REJECT
+ - DOMAIN-KEYWORD,bngpt,🛑 REJECT
+ - DOMAIN-KEYWORD,stunninglover,🛑 REJECT
+ - DOMAIN-KEYWORD,jads,🛑 REJECT
+ - DOMAIN-KEYWORD,trwl1,🛑 REJECT
+ - DOMAIN-KEYWORD,o333o,🛑 REJECT
+ - DOMAIN-SUFFIX,ad.pornimg.xyz,🛑 REJECT
+ - DOMAIN-SUFFIX,x2sfa.javgg.eu,🛑 REJECT
+ - DOMAIN-SUFFIX,xd3r.javgg.eu,🛑 REJECT
+ - DOMAIN-SUFFIX,p242.plainwrk.name,🛑 REJECT
+ - DOMAIN-KEYWORD,histats,🛑 REJECT
+ - DOMAIN-KEYWORD,dtscout,🛑 REJECT
+ - DOMAIN-KEYWORD,adform,🛑 REJECT
+ - DOMAIN-KEYWORD,mathtag,🛑 REJECT
+ - DOMAIN-KEYWORD,pagespeed-mod,🛑 REJECT
+ - DOMAIN-KEYWORD,in-page-push,🛑 REJECT
+ - DOMAIN-SUFFIX,referrer.disqus.com,🛑 REJECT
+ - DOMAIN-SUFFIX,links.services.disqus.com,🛑 REJECT
+ - DOMAIN-SUFFIX,disqusads.com,🛑 REJECT
+ - DOMAIN,glitter.services.disqus.com,🛑 REJECT
+ - DOMAIN,juggler.services.disqus.com,🛑 REJECT
+ - DOMAIN,tempest.services.disqus.com,🛑 REJECT
+ - DOMAIN,mc.viglink.com,🛑 REJECT
+ - DOMAIN,qa.viglink.com,🛑 REJECT
+ - DOMAIN,ns4.viglink.com,🛑 REJECT
+ - DOMAIN,ns2.viglink.com,🛑 REJECT
+ - DOMAIN,ns3.viglink.com,🛑 REJECT
+ - DOMAIN,apicdn.viglink.com,🛑 REJECT
+ - DOMAIN-SUFFIX,cdn.viglink.com,🛑 REJECT
+ - DOMAIN,nggfe.fdgem.com,🛑 REJECT
+ - DOMAIN,rthmnj.xyz,🛑 REJECT
+ - DOMAIN-SUFFIX, jknmthwd.xyz,🛑 REJECT
+ - DOMAIN,koprtgh.omhoa.com,🛑 REJECT
+ - DOMAIN,hbftgh.ibjkqnhjwd.xyz,🛑 REJECT
+ - DOMAIN,kmopoer.jkbuymjhp.xyz,🛑 REJECT
+ - DOMAIN,kmef.ikjwmfeds.xyz,🛑 REJECT
+ - DOMAIN,hnrtg.iujkegbpo.xyz,🛑 REJECT
+ - DOMAIN-SUFFIX,tcc.qscvli.com,🛑 REJECT
+ - DOMAIN,fg.knlk2md.cn,🛑 REJECT
+ - DOMAIN,tg.gtlpaj.com,🛑 REJECT
+ - DOMAIN-SUFFIX,gtlpaj.com,🛑 REJECT
+ - DOMAIN-SUFFIX,knlk2md.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,7tad.cn,🛑 REJECT
+ - DOMAIN,tc.vpubmi.com,🛑 REJECT
+ - DOMAIN-SUFFIX,qoiw1xw.cn,🛑 REJECT
+ - DOMAIN-SUFFIX,purpleads.io,🛑 REJECT
+ - DOMAIN-SUFFIX, fg.knlk2md.cn,🛑 REJECT
+ - DOMAIN-SUFFIX, tg.gtlpaj.com,🛑 REJECT
  - DOMAIN-KEYWORD,adservice,🛑 REJECT
  - DOMAIN,ad.51wnl-cq.com,🛑 REJECT
  - DOMAIN,adextra.51wnl-cq.com,🛑 REJECT
@@ -9747,22 +9747,41 @@ rules:
  - DOMAIN-SUFFIX,paragon.com,🎮 游戏模式
  - DOMAIN-SUFFIX,unrealengine.com,🎮 游戏模式
  - DOMAIN,lens.l.google.com,🇺🇸 美国
- - IP-CIDR,192.133.76.0/22,🎞️ 国际媒体,Twitter
- - IP-CIDR,199.16.156.0/22,🎞️ 国际媒体,Twitter
- - IP-CIDR,199.59.148.0/22,🎞️ 国际媒体,Twitter
- - IP-CIDR,199.96.56.0/21,🎞️ 国际媒体,Twitter
- - IP-CIDR,202.160.128.0/22,🎞️ 国际媒体,Twitter
- - IP-CIDR,209.237.192.0/19,🎞️ 国际媒体,Twitter
- - IP-CIDR,69.195.160.0/19,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,pscp.tv,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,periscope.tv,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,t.co,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,twimg.co,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,twimg.com,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,twitpic.com,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,twitter.com,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,twitter.jp,🎞️ 国际媒体,Twitter
- - DOMAIN-SUFFIX,vine.co,🎞️ 国际媒体,Twitter
+ - DOMAIN-SUFFIX,ads-twitter.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,cms-twdigitalassets.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,periscope.tv,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,pscp.tv,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,t.co,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,tellapart.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,tweetdeck.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twimg.co,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twimg.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twimg.org,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitpic.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitter.biz,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitter.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitter.jp,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twittercommunity.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitterflightschool.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitterinc.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitteroauth.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twitterstat.us,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twtrdns.net,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twttr.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twttr.net,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,twvid.com,🎞️ 国际媒体
+ - DOMAIN-SUFFIX,vine.co,🎞️ 国际媒体
+ - DOMAIN-KEYWORD,twitter,🎞️ 国际媒体
+ - IP-CIDR,192.133.76.0/22,🎞️ 国际媒体,no-resolve
+ - IP-CIDR,199.16.156.0/22,🎞️ 国际媒体,no-resolve
+ - IP-CIDR,199.59.148.0/22,🎞️ 国际媒体,no-resolve
+ - IP-CIDR,199.96.56.0/21,🎞️ 国际媒体,no-resolve
+ - IP-CIDR,202.160.128.0/22,🎞️ 国际媒体,no-resolve
+ - IP-CIDR,209.237.192.0/19,🎞️ 国际媒体,no-resolve
+ - IP-CIDR,69.195.160.0/19,🎞️ 国际媒体,no-resolve
+ - USER-AGENT,*youtube*,🎞️ 国际媒体
+ - USER-AGENT,YouTube*,🎞️ 国际媒体
+ - USER-AGENT,com.google.ios.youtube*,🎞️ 国际媒体
  - DOMAIN-KEYWORD,youtube,🎞️ 国际媒体
  - DOMAIN,youtubei.googleapis.com,🎞️ 国际媒体
  - DOMAIN,yt3.ggpht.com,🎞️ 国际媒体
@@ -9777,7 +9796,6 @@ rules:
  - DOMAIN-SUFFIX,youtubekids.com,🎞️ 国际媒体
  - DOMAIN-SUFFIX,yt.be,🎞️ 国际媒体
  - DOMAIN-SUFFIX,ytimg.com,🎞️ 国际媒体
- - DOMAIN,music.youtube.com,🎞️ 国际媒体
  - DOMAIN-SUFFIX,hbo.com,🇺🇸 美国
  - DOMAIN-SUFFIX,hbogo.com,🇺🇸 美国
  - DOMAIN-SUFFIX,hbomax.com,🇺🇸 美国
@@ -11043,22 +11061,48 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,🎞️ 国际媒体
  - DOMAIN,youtubei.googleapis.com,🎞️ 国际媒体
  - DOMAIN,yt3.ggpht.com,🎞️ 国际媒体
- - DOMAIN,api.biliapi.com,📺 港台番剧
- - DOMAIN,api.biliapi.net,📺 港台番剧
- - DOMAIN,api.bilibili.com,📺 港台番剧
- - DOMAIN,app.biliapi.com,📺 港台番剧
- - DOMAIN,app.biliapi.net,📺 港台番剧
- - DOMAIN,app.bilibili.com,📺 港台番剧
- - DOMAIN,grpc.biliapi.net,📺 港台番剧
- - DOMAIN,m.bilibili.com,📺 港台番剧
+ - USER-AGENT,Bilibili*,📺 港台番剧
+ - USER-AGENT,bili*,📺 港台番剧
+ - USER-AGENT,bili-inter*,📺 港台番剧
+ - DOMAIN,apiintl.biliapi.net,📺 港台番剧
  - DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 港台番剧
- - DOMAIN,www.bilibili.com,📺 港台番剧
- - DOMAIN-KEYWORD,cn-hk-eq-bcache-,📺 港台番剧
- - DOMAIN,cache.video.iqiyi.com,📺 港台番剧
- - IP-CIDR,116.211.202.206/32,📺 港台番剧,no-resolve
- - IP-CIDR,116.211.202.216/32,📺 港台番剧,no-resolve
- - DOMAIN-SUFFIX,api.mgtv.com,📺 港台番剧
- - DOMAIN,mobileso.bz.mgtv.com,📺 港台番剧
+ - DOMAIN-SUFFIX,acg.tv,📺 港台番剧
+ - DOMAIN-SUFFIX,acgvideo.com,📺 港台番剧
+ - DOMAIN-SUFFIX,b23.tv,📺 港台番剧
+ - DOMAIN-SUFFIX,bigfun.cn,📺 港台番剧
+ - DOMAIN-SUFFIX,bigfunapp.cn,📺 港台番剧
+ - DOMAIN-SUFFIX,biliapi.com,📺 港台番剧
+ - DOMAIN-SUFFIX,biliapi.net,📺 港台番剧
+ - DOMAIN-SUFFIX,bilibili.com,📺 港台番剧
+ - DOMAIN-SUFFIX,bilibili.tv,📺 港台番剧
+ - DOMAIN-SUFFIX,biligame.com,📺 港台番剧
+ - DOMAIN-SUFFIX,biligame.net,📺 港台番剧
+ - DOMAIN-SUFFIX,bilivideo.cn,📺 港台番剧
+ - DOMAIN-SUFFIX,bilivideo.com,📺 港台番剧
+ - DOMAIN-SUFFIX,hdslb.com,📺 港台番剧
+ - DOMAIN-SUFFIX,im9.com,📺 港台番剧
+ - DOMAIN-SUFFIX,smtcdns.net,📺 港台番剧
+ - DOMAIN,p-bstarstatic.akamaized.net,📺 港台番剧
+ - DOMAIN,p.bstarstatic.com,📺 港台番剧
+ - DOMAIN,upos-bstar-mirrorakam.akamaized.net,📺 港台番剧
+ - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,📺 港台番剧
+ - DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 港台番剧
+ - DOMAIN-SUFFIX,acgvideo.com,📺 港台番剧
+ - DOMAIN-SUFFIX,bilibili.com,📺 港台番剧
+ - DOMAIN-SUFFIX,bilibili.tv,📺 港台番剧
+ - IP-CIDR,45.43.32.234/32,📺 港台番剧,no-resolve
+ - IP-CIDR,103.151.150.0/23,📺 港台番剧,no-resolve
+ - IP-CIDR,119.29.29.29/32,📺 港台番剧,no-resolve
+ - IP-CIDR,128.1.62.200/32,📺 港台番剧,no-resolve
+ - IP-CIDR,128.1.62.201/32,📺 港台番剧,no-resolve
+ - IP-CIDR,150.116.92.250/32,📺 港台番剧,no-resolve
+ - IP-CIDR,164.52.33.178/32,📺 港台番剧,no-resolve
+ - IP-CIDR,164.52.33.182/32,📺 港台番剧,no-resolve
+ - IP-CIDR,164.52.76.18/32,📺 港台番剧,no-resolve
+ - IP-CIDR,203.107.1.33/32,📺 港台番剧,no-resolve
+ - IP-CIDR,203.107.1.34/32,📺 港台番剧,no-resolve
+ - IP-CIDR,203.107.1.65/32,📺 港台番剧,no-resolve
+ - IP-CIDR,203.107.1.66/32,📺 港台番剧,no-resolve
  - DOMAIN-SUFFIX,9cache.com,🌏 全球加速
  - DOMAIN-SUFFIX,9gag.com,🌏 全球加速
  - DOMAIN-SUFFIX,abc.com,🌏 全球加速
