@@ -216,15 +216,13 @@ proxy-groups:
 
   - {name: 🎮 游戏模式, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, DIRECT], <<: *u}
 
-  - {name: 🇨🇳 中国, type: select, proxies: [DIRECT, 🎮 游戏模式]}
+  - {name: 🌏 全球加速, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾]}
 
-  - {name: 🌏 全球加速, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, 🎮 游戏模式]}
+  - {name: 🎞️ 国际媒体, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾]}
 
-  - {name: 🎞️ 国际媒体, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, 🎮 游戏模式]}
+  - {name: 📺 港台番剧, type: select, proxies: [🇨🇳 中国, 🇭🇰 香港, 🇨🇳 台湾]}
 
-  - {name: 📺 港台番剧, type: select, proxies: [🇨🇳 中国, 🇭🇰 香港, 🇨🇳 台湾, 🎮 游戏模式]}
-
-  - {name: 🍎 苹果服务, type: select, proxies: [🇨🇳 中国, 🇺🇸 美国, 🎮 游戏模式]}
+  - {name: 🍎 苹果服务, type: select, proxies: [🇨🇳 中国, 🇺🇸 美国]}
 
   - {name: 🔄 FINAL, <<: *pr}
 
@@ -240,7 +238,9 @@ proxy-groups:
 
   - {name: 🇨🇳 台湾, <<: *u, filter: "(?i)台|新北|彰化|TW|Taiwan", tolerance: 2, type: url-test}
 
-  - {name: 🛑 REJECT, type: select, proxies: [REJECT, 🎮 游戏模式]}
+  - {name: 🇨🇳 中国, type: select, proxies: [DIRECT]}
+
+  - {name: 🛑 REJECT, type: select, proxies: [REJECT]}
 
  
 
