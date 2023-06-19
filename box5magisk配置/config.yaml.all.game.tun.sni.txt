@@ -214,7 +214,7 @@ proxy-providers:
 
 proxy-groups:
 
-  - {name: 🎮 游戏模式, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, DIRECT], <<: *u}
+  - {name: 🎮 游戏模式, type: select, proxies: [DIRECT], <<: *u}
 
   - {name: 🇨🇳 中国, type: select, proxies: [DIRECT]}
 
