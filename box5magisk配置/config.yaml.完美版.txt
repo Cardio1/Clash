@@ -145,6 +145,7 @@ dns:
   - "*.ff14.sdo.com"
   - ff.dorado.sdo.com
   - "*.mcdn.bilivideo.cn"
+  - "+.bilivideo.com"
   - +.media.dssott.com
   - +.pvp.net
   default-nameserver:
@@ -214,11 +215,41 @@ proxy-groups:
 
 rules:
   - GEOSITE,category-ads-all,🛑 REJECT
-  - AND,((NETWORK,UDP),(DST-PORT,443)),(GEOSITE,youtube),🛑 REJECT
   - AND,((NETWORK,UDP),(DST-PORT,123)),🇨🇳 中国
   - GEOSITE,category-games,🎮 游戏模式
   - GEOSITE,microsoft@cn,🇨🇳 中国
-  - GEOSITE,lenovo,DIRECT
+  - DOMAIN-SUFFIX,blurdev.com,DIRECT
+  - DOMAIN-SUFFIX,cftsupport.com,DIRECT
+  - DOMAIN-SUFFIX,fm365.com,DIRECT
+  - DOMAIN-SUFFIX,idea123.cn,DIRECT
+  - DOMAIN-SUFFIX,ileapcloud.com,DIRECT
+  - DOMAIN-SUFFIX,jhwan.com.cn,DIRECT
+  - DOMAIN-SUFFIX,juhuiwan.com,DIRECT
+  - DOMAIN-SUFFIX,juhuiwan.com.cn,DIRECT
+  - DOMAIN-SUFFIX,juhuiwan.net,DIRECT
+  - DOMAIN-SUFFIX,lenauth.com,DIRECT
+  - DOMAIN-SUFFIX,lenovo.cn,DIRECT
+  - DOMAIN-SUFFIX,lenovo.com,DIRECT
+  - DOMAIN-SUFFIX,lenovo.com.cn,DIRECT
+  - DOMAIN-SUFFIX,lenovocloudos.com,DIRECT
+  - DOMAIN-SUFFIX,lenovoeservice.com,DIRECT
+  - DOMAIN-SUFFIX,lenovogame.com,DIRECT
+  - DOMAIN-SUFFIX,lenovomm.cn,DIRECT
+  - DOMAIN-SUFFIX,lenovomm.com,DIRECT
+  - DOMAIN-SUFFIX,lenovovip.com.cn,DIRECT
+  - DOMAIN-SUFFIX,lx.pub,DIRECT
+  - DOMAIN-SUFFIX,lx.run,DIRECT
+  - DOMAIN-SUFFIX,lxzjjt.cn,DIRECT
+  - DOMAIN-SUFFIX,lxzjjt.com,DIRECT
+  - DOMAIN-SUFFIX,surepush.cn,DIRECT
+  - DOMAIN-SUFFIX,thinkcloudlab.com,DIRECT
+  - DOMAIN-SUFFIX,thinkpad.com,DIRECT
+  - DOMAIN-SUFFIX,zhiliaowenda.com.cn,DIRECT
+  - DOMAIN-SUFFIX,zui.cn,DIRECT
+  - DOMAIN-SUFFIX,zui.com,DIRECT
+  - DOMAIN-SUFFIX,zuk.cn,DIRECT
+  - DOMAIN-SUFFIX,zuk.com,DIRECT
+  - DOMAIN-SUFFIX,zuk.com.cn,DIRECT
   - GEOSITE,category-scholar-!cn,🎓 国外学术
   - GEOSITE,openai,🇺🇸 美国
   - GEOSITE,category-social-media-!cn,🇺🇸 美国
@@ -243,10 +274,10 @@ rules:
   - GEOIP,telegram,🌏 全球加速
   - GEOSITE,google,🌏 全球加速  
   - GEOIP,google,🌏 全球加速,no-resolve
-  - GEOIP,hk,🇭🇰 香港,no-resolve
-  - GEOIP,us,🇺🇸 美国,no-resolve
-  - GEOIP,jp,🇯🇵 日本,no-resolve
-  - GEOIP,tw,🇨🇳 台湾,no-resolve
+  - GEOIP,hk,🇭🇰 香港
+  - GEOIP,us,🇺🇸 美国
+  - GEOIP,jp,🇯🇵 日本
+  - GEOIP,tw,🇨🇳 台湾
   - GEOSITE,category-media,🎞️ 国际媒体
   - GEOSITE,geolocation-!cn,🌏 全球加速
   - GEOSITE,geolocation-cn,🇨🇳 中国
