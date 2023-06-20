@@ -215,6 +215,7 @@ proxy-groups:
 
 rules:
   - GEOSITE,category-ads-all,🛑 REJECT
+  - AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube)),🛑 REJECT
   - AND,((NETWORK,UDP),(DST-PORT,123)),🇨🇳 中国
   - GEOSITE,category-games,🎮 游戏模式
   - GEOSITE,microsoft@cn,🇨🇳 中国
