@@ -1,0 +1,309 @@
+mixed-port: 7890
+redir-port: 7891
+tproxy-port: 1536
+allow-lan: true
+mode: rule
+geodata-mode: true
+unified-delay: true
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+external-ui: ./dashboard/Yacd
+secret: "119526"
+enable-process: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+geox-url:
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+
+tun:
+  enable: true
+  device: tun3
+  stack: gVisor
+  inet6-address: 
+  dns-hijack:
+    - 'any:53'
+  auto-route: true
+  auto-detect-interface: true
+
+
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter:
+  - '*'
+  - '+.lan'
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - +.pool.ntp.org
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - msftconnecttest.com
+  - msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - +.srv.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - +.ipv6.microsoft.com
+  - +.battlenet.com.cn
+  - +.wotgame.cn
+  - +.wggames.cn
+  - +.wowsgame.cn
+  - +.wargaming.net
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.ff14.sdo.com"
+  - ff.dorado.sdo.com
+  - "*.mcdn.bilivideo.cn"
+  - "+.bilivideo.com"
+  - +.media.dssott.com
+  - +.pvp.net
+  default-nameserver:
+  - 223.5.5.5
+  nameserver:
+  - 'tls://8.8.4.4#dns'
+  - 'tls://1.0.0.1#dns'
+  proxy-server-nameserver:
+  - https://doh.pub/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+proxies:
+p: &p
+  {type: http, interval: 3600, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 300}}
+pr: &pr
+  {type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, 🇨🇳 中国, 🎮 游戏模式]}
+
+
+u: &u
+  type: select
+  use:
+  - 订阅地址
+
+proxy-providers:
+  订阅地址:
+    <<: *p
+    url: "https://fuqing.ch/subscribe/ezaqav-0vplllz3"
+    path: ./proxy_providers/subscribe.yaml 
+
+proxy-groups:
+
+  - {name: 🎮 游戏模式, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, DIRECT], <<: *u}
+
+  - {name: 🇨🇳 中国, type: select, proxies: [DIRECT, 🎮 游戏模式]}
+
+  - {name: 🌏 全球加速, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, 🎮 游戏模式]}
+
+  - {name: 🎞️ 国际媒体, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, 🎮 游戏模式]}
+
+  - {name: 📺 港台番剧, type: select, proxies: [🇨🇳 中国, 🇭🇰 香港, 🇨🇳 台湾, 🎮 游戏模式]}
+
+  - {name: 🍎 苹果服务, type: select, proxies: [🇨🇳 中国, 🇺🇸 美国, 🎮 游戏模式]}
+
+  - {name: 🔄 FINAL, <<: *pr}
+
+  - {name: 🎓 国外学术, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾,]}
+
+  - {name: 📽️ Netflix, <<: *u, filter: "(?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States"}
+
+  - {name: 📽️ Disney+, <<: *u, filter: "(?i)港|HK|Hong Kong"}
+
+  - {name: 🇭🇰 香港, <<: *u, filter: "(?i)港|HK|Hong Kong", tolerance: 2, type: url-test}
+
+  - {name: 🇺🇸 美国, <<: *u, filter: "(?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States", tolerance: 2, type: url-test}
+
+  - {name: 🇯🇵 日本, <<: *u, filter: "(?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan", tolerance: 2, type: url-test}
+
+  - {name: 🇨🇳 台湾, <<: *u, filter: "(?i)台|新北|彰化|TW|Taiwan", tolerance: 2, type: url-test}
+
+  - {name: dns, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇯🇵 日本, 🇨🇳 台湾, DIRECT], <<: *u}
+
+
+  - {name: 🛑 REJECT, type: select, proxies: [REJECT, 🎮 游戏模式]}
+
+rules:
+  - GEOSITE,category-ads-all,🛑 REJECT
+  - AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube)),🛑 REJECT
+  - AND,((NETWORK,UDP),(DST-PORT,123)),🇨🇳 中国
+  - GEOSITE,category-games,🎮 游戏模式
+  - GEOSITE,microsoft@cn,🇨🇳 中国
+  - DOMAIN-SUFFIX,blurdev.com,DIRECT
+  - DOMAIN-SUFFIX,cftsupport.com,DIRECT
+  - DOMAIN-SUFFIX,fm365.com,DIRECT
+  - DOMAIN-SUFFIX,idea123.cn,DIRECT
+  - DOMAIN-SUFFIX,ileapcloud.com,DIRECT
+  - DOMAIN-SUFFIX,jhwan.com.cn,DIRECT
+  - DOMAIN-SUFFIX,juhuiwan.com,DIRECT
+  - DOMAIN-SUFFIX,juhuiwan.com.cn,DIRECT
+  - DOMAIN-SUFFIX,juhuiwan.net,DIRECT
+  - DOMAIN-SUFFIX,lenauth.com,DIRECT
+  - DOMAIN-SUFFIX,lenovo.cn,DIRECT
+  - DOMAIN-SUFFIX,lenovo.com,DIRECT
+  - DOMAIN-SUFFIX,lenovo.com.cn,DIRECT
+  - DOMAIN-SUFFIX,lenovocloudos.com,DIRECT
+  - DOMAIN-SUFFIX,lenovoeservice.com,DIRECT
+  - DOMAIN-SUFFIX,lenovogame.com,DIRECT
+  - DOMAIN-SUFFIX,lenovomm.cn,DIRECT
+  - DOMAIN-SUFFIX,lenovomm.com,DIRECT
+  - DOMAIN-SUFFIX,lenovovip.com.cn,DIRECT
+  - DOMAIN-SUFFIX,lx.pub,DIRECT
+  - DOMAIN-SUFFIX,lx.run,DIRECT
+  - DOMAIN-SUFFIX,lxzjjt.cn,DIRECT
+  - DOMAIN-SUFFIX,lxzjjt.com,DIRECT
+  - DOMAIN-SUFFIX,surepush.cn,DIRECT
+  - DOMAIN-SUFFIX,thinkcloudlab.com,DIRECT
+  - DOMAIN-SUFFIX,thinkpad.com,DIRECT
+  - DOMAIN-SUFFIX,zhiliaowenda.com.cn,DIRECT
+  - DOMAIN-SUFFIX,zui.cn,DIRECT
+  - DOMAIN-SUFFIX,zui.com,DIRECT
+  - DOMAIN-SUFFIX,zuk.cn,DIRECT
+  - DOMAIN-SUFFIX,zuk.com,DIRECT
+  - DOMAIN-SUFFIX,zuk.com.cn,DIRECT
+  - GEOSITE,category-scholar-!cn,🎓 国外学术
+  - GEOSITE,openai,🇺🇸 美国
+  - GEOSITE,category-social-media-!cn,🇺🇸 美国
+  - GEOIP,twitter,🇺🇸 美国,no-resolve
+  - GEOSITE,hbo,🇺🇸 美国
+  - GEOSITE,hulu,🇺🇸 美国
+  - GEOSITE,spotify,🇺🇸 美国
+  - GEOSITE,youtube,🎞️ 国际媒体
+  - GEOSITE,disney,📽️ Disney+
+  - GEOSITE,netflix,📽️ Netflix
+  - GEOIP,netflix,📽️ Netflix,no-resolve
+  - GEOSITE,github,🇭🇰 香港
+  - GEOSITE,bing,🇭🇰 香港
+  - GEOSITE,apple-cn,🍎 苹果服务
+  - GEOSITE,icloud@cn,🍎 苹果服务
+  - GEOSITE,apple@cn,🍎 苹果服务
+  - GEOSITE,bilibili,📺 港台番剧
+  - GEOSITE,biliintl,📺 港台番剧
+  - GEOSITE,iqiyi,📺 港台番剧
+  - GEOSITE,category-porn,🌏 全球加速
+  - GEOSITE,telegram,🌏 全球加速
+  - GEOIP,telegram,🌏 全球加速
+  - GEOSITE,google,🌏 全球加速  
+  - GEOIP,google,🌏 全球加速,no-resolve
+  - GEOIP,cn,🇨🇳 中国
+  - GEOIP,hk,🇭🇰 香港
+  - GEOIP,us,🇺🇸 美国
+  - GEOIP,jp,🇯🇵 日本
+  - GEOIP,tw,🇨🇳 台湾
+  - GEOSITE,category-media,🎞️ 国际媒体
+  - GEOSITE,geolocation-!cn,🌏 全球加速
+  - GEOSITE,geolocation-cn,🇨🇳 中国
+  - GEOSITE,cn,🇨🇳 中国
+  - GEOIP,cn,🇨🇳 中国
+  - GEOIP,PRIVATE,DIRECT,no-resolve
+  - MATCH,🔄 FINAL
+
+  
+
+  
+  
+  
+  
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
